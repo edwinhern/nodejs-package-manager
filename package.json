@@ -1,0 +1,26 @@
+{
+  "name": "continue-interview-package-manager",
+  "version": "1.0.0",
+  "description": "A basic version of a NodeJS package manager",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist output",
+    "add": "tsx src/index.ts add",
+    "install": "tsx src/index.ts install"
+  },
+  "keywords": [],
+  "author": "Edwin Hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "ora": "^8.0.1",
+    "tar": "^7.4.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "@types/node": "^20.14.9",
+    "rimraf": "^5.0.7",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.3"
+  }
+}
